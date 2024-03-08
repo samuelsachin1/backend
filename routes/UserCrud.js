@@ -15,7 +15,7 @@ const authenticate=require('../middlewares/authenticate')
 const Razorpay=require('razorpay')
 
 const admin = require('firebase-admin');
-const serviceAccount = require('../privatekey.json'); // Replace with your Firebase service account key
+// const serviceAccount = require('../privatekey.json'); // Replace with your Firebase service account key
 const client = require('twilio')(accountSid, authToken);
 const mongoose = require('../Config/Connection')
 const Notification = require('../models/Notification');
